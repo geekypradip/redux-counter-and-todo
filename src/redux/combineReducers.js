@@ -11,6 +11,7 @@ import handleTodo from "./todo/reducer/handleTodo";
 // console.log(handleTodo)
 const rootReducer=combineReducers({
     counter:upDown,
-    todo:handleTodo
+    todo:handleTodo,
+   
 })
 export default rootReducer;

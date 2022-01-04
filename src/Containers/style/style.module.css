@@ -56,3 +56,21 @@ body {
   color: #000;
   font-weight: bold;
 }
+.ArithMaticHolder {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ArithMaticHolder > input {
+  margin: 10px;
+}
+.ArithMaticHolder button {
+  background: tomato;
+  border: none;
+  color: #fff;
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}

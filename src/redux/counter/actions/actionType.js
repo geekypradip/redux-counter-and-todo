@@ -1,2 +1,6 @@
 export const INCREMENT="INCREMENT";
 export const DECREMENT="DECREMENT";
+export const ADDBYX="ADDBYX";
+export const SUBSTRACTBYX="SUBSTRACTBYX";
+export const MULTIPLYBYX="MULTIPLYBYX";
+export const DEVIDEBYX="DEVIDEBYX";

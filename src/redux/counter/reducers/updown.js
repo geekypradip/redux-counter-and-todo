@@ -11,8 +11,8 @@
 //         }
 // }
 // export default incDrc;
-import { DECREMENT, INCREMENT } from "../actions/actionType";
-const initialState=0;
+import { ADDBYX, DEVIDEBYX, MULTIPLYBYX, SUBSTRACTBYX,DECREMENT, INCREMENT } from "../actions/actionType";
+export const initialState=0;
 function upDown(state=initialState,{type,payload}) {
     switch(type){
         case INCREMENT:{
@@ -20,6 +20,19 @@ function upDown(state=initialState,{type,payload}) {
         }
         case DECREMENT:{
             return state-payload;
+        }
+        case ADDBYX:{
+            return state+ +payload;
+        }
+        case SUBSTRACTBYX:{
+            return state- +payload;
+        }
+
+        case MULTIPLYBYX:{
+            return state* +payload;
+        }
+        case DEVIDEBYX:{
+            return state/ +payload;
         }
         default:{
             return state;
